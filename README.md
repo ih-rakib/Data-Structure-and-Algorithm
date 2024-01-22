@@ -4,7 +4,7 @@
 def orion():
     print("orion!")
 ```
-```
+```cpp
 void orion() {
     cout << "orion!" << '\n';
 }
