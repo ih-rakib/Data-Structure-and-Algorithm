@@ -4,6 +4,11 @@
 def orion():
     print("orion!")
 ```
+```
+void orion() {
+    cout << "orion!" << '\n';
+}
+```
 
 ## Array
 
