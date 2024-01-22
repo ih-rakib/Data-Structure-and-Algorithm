@@ -1,1 +1,13 @@
 testing...
+
+# Add all changes (new files and modifications) to the staging area
+git add .
+
+# Commit the changes with a meaningful message
+git commit -m "Add or update files"
+
+# Pull changes from the remote repository (optional, if there are changes on the remote)
+git pull origin master
+
+# Push your changes to the remote repository
+git push
