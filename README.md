@@ -23,7 +23,7 @@ void orion() {
 | 7  | [Single Number](https://leetcode.com/problems/single-number/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Single%20Number.cpp) |
 | 8  | [problem]() | [1]() |
 
-`------------------------------------------------`
+
 
 ## Binary Search
 
