@@ -48,4 +48,5 @@ void orion() {
 | 3  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/String/Longest%20Common%20Prefix.cpp) |
 | 4  | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/String/Largest%20Odd%20Number%20in%20String.cpp) |
 | 5  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/String/Isomorphic%20Strings.cpp) |
-| 6  | []() | [1]() |
+| 6  | [Number of Changing Keys](https://leetcode.com/contest/weekly-contest-382/problems/number-of-changing-keys/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/String/Number%20of%20Changing%20Keys.cpp) |
+| 7  | []() | [1]() |
