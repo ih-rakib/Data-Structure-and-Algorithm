@@ -21,7 +21,7 @@ void orion() {
 | 5  | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Max%20Consecutive%20Ones.cpp) |
 | 6  | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Rotate%20Array.cpp), [2](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Rotate%20Array%20(optimal).cpp) |
 | 7  | [Single Number](https://leetcode.com/problems/single-number/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Single%20Number.cpp) |
-| 8  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Subarray%20Sum%20Equals%20K%20(2).cpp), [2](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Subarray%20Sum%20Equals%20K.cpp) |
+| 8  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Subarray%20Sum%20Equals%20K%20(2).cpp), [2](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Array/Subarray%20Sum%20Equals%20K.cpp) |[Prefix Sum]
 | 9  | [problem]() | [1]() |
 
 ------------------------
