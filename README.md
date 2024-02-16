@@ -10,6 +10,31 @@ void orion() {
 }
 ```
 
+# CSES
+
+## Introductory Problems
+
+| No | Problem Name | Code | Category |
+|----|--------------|------|----------|
+| 1  | [Weird Algorithm](https://cses.fi/problemset/task/1068) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/CSES/Introductory%20Problems/Weird%20Algorithm.cpp) | Arithmetic Operation |
+| 2  | [Missing Number](https://cses.fi/problemset/task/1083) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/CSES/Introductory%20Problems/Missing%20Number.cpp) |Arithmetic Progression |
+| 3  | [Repetitions](https://cses.fi/problemset/task/1069) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/CSES/Introductory%20Problems/Repetitions.cpp) | Maximum length substring/subarray |
+| 4  | [problem]() | [1]() | |
+
+------------------------
+
+## Sorting and Searching
+
+| No | Problem Name | Code | Category |
+|----|--------------|------|----------|
+| 1  | [Distinct Numbers](https://cses.fi/problemset/task/1621) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/CSES/Sorting%20and%20Searching/Distinct%20Numbers.cpp) | set |
+| 1  | [problem]() | [1]() | |
+
+------------------------
+
+
+# Leetcode
+
 ## Array
 
 | No | Problem Name | Code | Category |
