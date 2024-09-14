@@ -35,6 +35,12 @@ void orion() {
 
 # Leetcode
 
+## All
+
+| No | Problem Name | Code |
+|----|--------------|------|
+| 1  | []() | [1]() |
+
 ## Array
 
 | No | Problem Name | Code | Category |
