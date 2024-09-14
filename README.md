@@ -39,7 +39,11 @@ void orion() {
 
 | No | Problem Name | Code |
 |----|--------------|------|
-| 1  | []() | [1]() |
+| 1  | [Two Sum](https://leetcode.com/problems/two-sum/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Leetcode/Two%20Sum.cpp) |
+| 2  | [3Sum](https://leetcode.com/problems/3sum/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Leetcode/3Sum.cpp) |
+| 3  | [4Sum](https://leetcode.com/problems/4sum/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Leetcode/4Sum.cpp) |
+| 4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [1](https://github.com/ih-rakib/Data-Structure-and-Algorithm/blob/master/Leetcode/Median%20of%20Two%20Sorted%20Arrays.cpp) |
+| 5  | []() | [1]() |
 
 ## Array
 
