@@ -1,14 +1,23 @@
+// https://cses.fi/problemset/task/1621/
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
 void solve() {
     int n; cin >> n;
-    set<int> s;
+    vector<int> v(n);
+
+    for(int i = 0; i < n; ++i) cin >> v[i];
+
+    sort(v.begin(), v.end());
+    int ans = 0;
     for(int i = 0; i < n; ++i) {
-        int x; cin >> x; s.insert(x);
+        if(i == 0 or v[i]!=v[i-1]){
+            ans++;
+        }
     }
-    cout << s.size();
+    cout << ans;
 }
 
 int main() {

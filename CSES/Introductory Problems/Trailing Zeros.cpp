@@ -1,20 +1,18 @@
-// https://cses.fi/problemset/task/1083
+// https://cses.fi/problemset/task/1618
 
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
 void solve() {
-    ll n; 
+    ll n;
     cin >> n;
 
-    ll total = 0;
-    for(int i = 0; i < n - 1; ++i) {
-        int x; cin >> x; total += x;
+    int ans = 0;
+    for(int i = 5; i <= n; i *= 5) {
+        ans += n/i;
     }
-
-    ll sum = n * (n + 1) / 2;
-    cout << sum - total;
+    cout << ans;
 }
 
 int main() {

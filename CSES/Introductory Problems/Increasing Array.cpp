@@ -1,23 +1,25 @@
-// https://cses.fi/problemset/task/1069
+// https://cses.fi/problemset/task/1094
 
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
 void solve() {
-    string s;
-    cin >> s;
+    ll n; 
+    cin >> n;
 
-    int ans = 0, len = 0;
-    for(int i = 0; i < (int)s.length(); ++i){
-        if(i == 0 or s[i] == s[i-1]){
-            len++;
+    ll max_so_far = -1, ans = 0;
+
+    for(int i = 0; i < n; ++i){
+        ll x; 
+        cin >> x;
+
+        if(x < max_so_far) {
+            ans += max_so_far - x;
         }else {
-            len = 1;
+            max_so_far = x;
         }
-        ans = max(ans, len);
     }
-
     cout << ans;
 }
 
