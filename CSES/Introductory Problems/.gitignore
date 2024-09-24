@@ -1,0 +1,4 @@
+# Ignore all .bin files
+*.bin
+
+# Other ignore patterns can go here
