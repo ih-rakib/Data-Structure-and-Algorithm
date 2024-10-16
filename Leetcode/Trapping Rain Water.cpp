@@ -22,3 +22,13 @@ public:
         return ans;
     }
 };
+
+/*
+
+- water trapped above each bar is determined by the bars towards its left and right
+- specifically smallest of two boundary(right and left) - water level is limited by this shorter boundary
+- if(height[left] < height[right]) that means left boundary is shorter - so process left
+- otherwise process right
+
+
+*/
