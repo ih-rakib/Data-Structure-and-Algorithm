@@ -1,4 +1,6 @@
-// /**
+// https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/ 
+
+/**
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -39,8 +41,8 @@ public:
         }
 
         if(levelSums.size() < k) return -1;
-
-        sort(levelSums.begin(), levelSums.end());
+        
+        sort(levelSums.begin(), levelSums.end(), greater<long long> ());
 
         return levelSums[k-1];
     }
