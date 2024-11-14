@@ -2,10 +2,10 @@
 
 class Solution {
 public:
-    bool ok(vector<int>& piles, int h, int k) {
+    bool ok(vector<int>& piles, int h, int k) { // if Koko can finish in h hours with eating speed k
         long long hour = 0;
         for(int curPile : piles) {
-            hour += (curPile + k - 1) / k;
+            hour += (curPile + k - 1) / k; // time needed to eat curPile (k ta khete 1hr, curPile ta khete curPile/k hr(ceil) )
         }
         return hour <= h;
     }
