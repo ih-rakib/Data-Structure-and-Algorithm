@@ -20,8 +20,8 @@ public:
             count[s[r]-'a']--;
 
             while(*min_element(count.begin(), count.end()) < k) {
-                count[s[l] - 'a']++;
-                l++;
+                count[s[l] - 'a']++; 
+                l++; // shrinking the window while invalid
             }
             window = max(window, r - l + 1);
         }
@@ -69,7 +69,7 @@ public:
                 if(s[l] == 'c') curC--;
                 l++;
             }
-            window = max(window, r - l + 1);
+            window = max(window, r - l + 1); // window that includes a,b,c (k occurences)
         }
         return n - window;
     }

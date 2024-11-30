@@ -33,7 +33,7 @@ public:
                 int nr = r + dr, nc = c + dc;
 
                 if (nr >= 0 && nr < n && nc >= 0 && nc < m && !vis[nr][nc]) {
-                    bool wait = (grid[nr][nc] - time) % 2 == 0;
+                    bool wait = (grid[nr][nc] - time) % 2 == 0; // even: 1, odd: 0
                     int nt = max(grid[nr][nc] + wait, time + 1);
                     pq.push({nt, {nr, nc}});
                 }
