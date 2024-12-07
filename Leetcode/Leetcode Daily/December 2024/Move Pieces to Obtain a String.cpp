@@ -6,7 +6,7 @@ public:
         int i = 0, j = 0;
         int n = start.length();
 
-        while(i <= n and j <= n) {
+        while(i < n || j < n) {
             while(i < n and start[i] == '_') i++;
             while(j < n and target[j] == '_') j++;
 
